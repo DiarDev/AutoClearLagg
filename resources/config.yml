@@ -2,19 +2,19 @@
 # AutoClearLagg (ACL) Config
 
 # Seconds between each clear lagg
-seconds: 180
+seconds: 300
 
 # Entities to clear
 clear:
   items: true
-  mobs: true
+  mobs: false
   xp-orbs: true
   exempt: [] # Array of entities not to clear
 
 messages:
-  time-left: "§cEntities will cleared in {SECONDS} seconds"
-  entities-cleared: "§c{COUNT} Entities cleared"
+  time-left: "§l§e•§f Tất cả vật phẩm dưới mặt đất sẽ bay màu sau {SECONDS} giây nữa, hãy lụm hết đồ!"
+  entities-cleared: "§l§e•§f {COUNT} vật phẩm đã bay màu!"
 
 # Countdown times
-times: [60, 30, 15, 10, 3, 2, 1]
+times: [300, 30, 15, 10, 3, 2, 1]
 ...
